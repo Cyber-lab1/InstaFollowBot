@@ -79,7 +79,7 @@ from time import sleep
 class Model:
     def __init__(self):
         # change this to your chromedriver path and filename
-        self._driver_path = 'chromedriver'
+        self._driver_path = 'D:\Downloads\chromedriver'
         self._driver = webdriver.Chrome(self._driver_path)
         self._insta_url = 'https://www.instagram.com/'
         self._followers_filename = ''
